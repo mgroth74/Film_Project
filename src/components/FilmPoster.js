@@ -5,7 +5,7 @@ function Poster(props){
   let posterUrl = 'https://image.tmdb.org/t/p/w780'+props.poster
 
   return(
-    <div className="film-row">
+    <div >
       <img src={posterUrl} alt="" />
       
      </div>

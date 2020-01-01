@@ -8,12 +8,11 @@ import films from '../TMDB'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="film-library">
+     <div className="film-library">
         <FilmListing films = {films}/>
-        <FilmDetails films = {films}/>      
+         <FilmDetails films = {films}/>      
         </div>
-      </div>
+    
     );
   }
 }
