@@ -23,7 +23,7 @@ class Fave extends Component {
 
    
   render() {
-    console.log('hanlding fave click',this.state.isFave)
+   
    const isFave = this.state.isFave ? 'add_to_queue' : 'remove_from_queue';
       return(
     <div className={`film-row-fave ${isFave}`} onClick={this.handleClick}>
